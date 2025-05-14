@@ -69,17 +69,17 @@ export default function Skills() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full hover:shadow-md transition-shadow">
+              <Card className="h-full hover:shadow-md transition-shadow bg-zinc-300">
                 <CardContent className="p-6">
                   <div className="flex items-center mb-4">
                     {category.icon}
                     <h3 className="text-xl font-semibold ml-3">{category.title}</h3>
                   </div>
-                  <ul className="space-y-2">
+                  <ul className="space-y-2 ">
                     {category.skills.map((skill) => (
-                      <li key={skill} className="flex items-center">
+                      <li key={skill} className="flex items-center ">
                         <div className="w-2 h-2 rounded-full bg-primary mr-2"></div>
-                        <span className="text-muted-foreground">{skill}</span>
+                        <span className="text-black">{skill}</span>
                       </li>
                     ))}
                   </ul>

@@ -14,19 +14,19 @@ export default function Projects() {
       title: "Khareedo.com",
       description:
         "A full-stack microservice based e-commerce platform built with the MERN stack featuring user authentication, product management, cart functionality, and payment integration.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/public/images/images.png",
       tags: ["Nextjs", "Node.js" , "Nestjs" , "MongoDB", "Redux", "Stripe"],
       liveLink: "https://www.youtube.com/watch?v=0AAF0iWVw8c",
       githubLink: "https://github.com/Kunal-Sharma816/kharido-app.git",
     },
     {
-      title: "AI-Powered Content Generator",
+      title: "Insure Wheels-Vehicle Insurance Platform",
       description:
-        "An application that leverages AI to generate content based on user prompts. Integrates with OpenAI's API and includes user authentication and content management.",
+      "An application that provide facility of filing claiming insurance",
       image: "/placeholder.svg?height=300&width=500",
-      tags: ["Next.js", "OpenAI API", "Node.js", "MongoDB", "Tailwind CSS"],
+      tags: ["React.js", "Node.js", "MongoDB", "Tailwind CSS" , "Express.js"],
       liveLink: "#",
-      githubLink: "#",
+      githubLink: "https://github.com/Kunal-Sharma816/Insurance_website.git",
     },
     {
       title: "AI-powered Resume Analysis and Text Summarization",
@@ -65,7 +65,7 @@ export default function Projects() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow bg-gray-200">
+              <Card className="h-full overflow-hidden hover:shadow-lg transition-shadow bg-black">
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image
                     src={project.image || "/placeholder.svg"}
@@ -74,8 +74,8 @@ export default function Projects() {
                     className="object-cover transition-transform hover:scale-105"
                   />
                 </div>
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <CardContent className="p-6 text-white">
+                  <h3 className="text-xl  font-bold mb-2">{project.title}</h3>
                   <p className="text-muted-foreground mb-4 ">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tags.map((tag) => (
