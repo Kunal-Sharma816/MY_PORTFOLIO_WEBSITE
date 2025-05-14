@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
-import { Database, Server, Code, Braces, LineChart, Brain, Globe, Layers } from "lucide-react"
+import { Database, Server, Code, Braces, LineChart, Globe, Layers } from "lucide-react"
 
 export default function Skills() {
   const skillCategories = [
