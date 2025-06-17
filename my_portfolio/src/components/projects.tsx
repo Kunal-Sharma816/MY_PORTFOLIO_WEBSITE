@@ -37,6 +37,15 @@ export default function Projects() {
       liveLink: "https://ai-powered-resumeandtextsummarization.onrender.com/",
       githubLink: "https://github.com/Kunal-Sharma816/DAA-Project.git",
     },
+        {
+      title: "Linkly-URL shortner",
+      description:
+      "Developed a scalable MERN-based URL shortener with custom slugs, user authentication, and optimized API performance for high concurrency.",
+      image: "/placeholder.svg?height=300&width=500",
+      tags: ["ReactJS", "JavaScript", "TailwindCSS", "ExpressJS" , "MongoDB-Atlas" , "Tan-stack Query"],
+      liveLink: "https://ai-powered-resumeandtextsummarization.onrender.com/",
+      githubLink: "https://github.com/Kunal-Sharma816/DAA-Project.git",
+    },
   ]
 
   return (
